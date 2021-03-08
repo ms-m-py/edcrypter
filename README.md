@@ -6,13 +6,17 @@ backup file before encrypt
 
 _________________________________________________
 you can encrypt all file with this script
+
 you can not encrypt directory
 
- -------------------------------------
 
 linux terminal and windows cmd if python3 installed:
 ____________________________________________________
+*dependensies*
 
+
+pip install cryptography
+_____________________________________________________
 #encrypt
 
 python3 main.py -e filepath
@@ -61,3 +65,4 @@ ________________________________________
 #example
 python3 main.py -d ~/.msm.ogg
 ________________________________________
+telegram_channel:https://t.me/Python_RBH
