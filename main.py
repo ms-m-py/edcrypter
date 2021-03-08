@@ -1,6 +1,5 @@
 import getpass
 import crypter
-import playsound
 import os
 import sys
 from time import sleep
