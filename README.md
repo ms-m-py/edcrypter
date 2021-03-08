@@ -5,7 +5,9 @@ ______________________________________
 
 backup file before encrypt
 
-
+________________________________
+you can encrypt all file with this script
+you can not encrypt directory
 
  -------------------------------------
 
@@ -33,9 +35,7 @@ python3 main.py -eh filepath
 python3 main.py -eh ~/msm.ogg
 
 
-_______________________________________
-
-
+_________________________________________
 
 #decrypt
 
@@ -57,4 +57,9 @@ python3 main.py -dt filepath
 python3 main.py -dt ~/msm.ogg
 
 
+________________________________________
+
+#decrypt hidden file 
+#example
+python3 main.py -d ~/.msm.ogg
 ________________________________________
