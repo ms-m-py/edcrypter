@@ -20,13 +20,22 @@ class program():
             file.write(decrypted)
 kind=sys.argv[1]
 if "-e" in kind:
-    fname=sys.argv[2]
+    path=sys.argv[2]
     passs=getpass.getpass('password:')
     e_dcrypter=program()
-    e_dcrypter.encrypt(fname,passs)
+    e_dcrypter.encrypt(path,passs)
     if "h" in kind:
-        os.rename(fname,"."+fname)
-        print(f"file name changed to .{fname} and the file was hidden")
+        fhname=""
+        index=0
+        pathlist=path.split("/")
+        for i in pathlist:
+            index+=1
+            if len(pathlist)==index:
+                fhname+="."+i
+                break
+            fhname+=i+r"/"
+        os.rename(path,fhname)
+        print(f"file path changed to {fhname} and the file was hidden")
 elif "-d" in kind:
     file_path=sys.argv[2]
     passs=getpass.getpass('password:')
