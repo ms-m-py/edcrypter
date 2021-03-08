@@ -1,10 +1,14 @@
 # edcrypter
 _______________________________________________
 
+telegram_channel:https://t.me/Python_RBH
+
+________________________________________
 
 backup file before encrypt
 
 _________________________________________________
+
 you can encrypt all file with this script
 
 you can not encrypt directory
@@ -64,5 +68,3 @@ ________________________________________
 #decrypt hidden file 
 #example
 python3 main.py -d ~/.msm.ogg
-________________________________________
-telegram_channel:https://t.me/Python_RBH
