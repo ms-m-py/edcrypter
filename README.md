@@ -1,7 +1,7 @@
 # edcrypter
 _______________________________________________
 
-telegram_channel:https://t.me/Python_RBH
+telegram_channel:https://t.me/Python_MBH
 
 ________________________________________
 
